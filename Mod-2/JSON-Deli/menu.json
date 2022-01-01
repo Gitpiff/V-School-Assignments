@@ -1,0 +1,92 @@
+{
+    "apetizers": [
+        {
+            "name": "Wings",
+            "ingredients": [
+                "Organic Chicken Wings",
+                "Hot Sauce"
+            ],
+            "description": "Five Smoked and Grilled Organic Chicken Wings"
+        },
+        {
+            "name": "Queso",
+            "ingredients": [
+                "Five Cheese Sauce",
+                "Chips"
+            ],
+            "description": "4 oz of a House Five Cheese Sauce, with a side of chips"
+        }
+    ],
+    "cold sandwiches": [
+        {
+            "name": "Tuna Sandwich",
+            "ingredients": [
+                "Yellowfin Tuna",
+                "French Bread"
+            ],
+            "description": "6 oz Tuna Steak in French Bread"
+        },
+        {
+            "name": "Smoked Salmon Sandwich",
+            "ingredients": [
+                "Smoked Salmon",
+                "French Bread"
+            ],
+            "description": "4 oz of Smoked Salmon in French Bread"
+        }
+    ],
+    "hot sandwiches": [
+        {
+            "name": "Chicken Sandwich",
+            "ingredients": [
+                "Grilled Chicken Breast",
+                "French Bread"
+            ],
+            "description": "6 oz Grilled Chicken Breast in French Bread"
+        },
+        {
+            "name": "Meatball Sandwich",
+            "ingredients": [
+                "Three Meatballs",
+                "Marinara Sauce"
+            ],
+            "description": "Three Meatballs in French Bread with Marinara Sauce"
+        }
+    ],
+    "deserts": [
+        {
+            "name": "Ice Cream",
+            "ingredients": [
+                "Vanilla Ice Cream",
+                "Strawberry Ice Cream"
+            ],
+            "description": "A scoop of Vanilla and Strawberry Ice Cream"
+        },
+        {
+            "name": "Cake",
+            "ingredients": [
+                "Fruit",
+                "Bread"
+            ],
+            "description": "Baked bread with fruit"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "Coffee",
+            "ingredients": [
+                "Coffee",
+                "Cream"
+            ],
+            "description": "Mexican Coffee with cream"
+        },
+        {
+            "name": "Fruit Juice",
+            "ingredients": [
+                "Fresh Fruit",
+                "Water"
+            ],
+            "description": "Fresh Fruit Juice made to Order"
+        }
+    ]
+}

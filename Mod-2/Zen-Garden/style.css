@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+     padding: 0;
+    margin: 0;
+}
+
+
+body {
+    color: #325050;
+    background: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+  }
+
+
+.container {
+    display: grid;
+    grid-auto-rows: minmax(150px, auto);
+    grid-template-columns: 2fr 1fr;
+    line-height: 2em;
+}
+
+.container > div {
+    /* border: solid black 2px; */
+    padding: 50px 10px 10px 50px;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: normal;
+    font-size: 3.2em;
+    padding: 0 10%;
+}
+
+h2 {
+    padding: 3%;
+}
+
+.dotted {
+    text-decoration: underline dotted;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color:#0d8ba1;
+}
+
+span, h2 {
+    font-family: italic;
+    font-style: oblique;
+    font-weight: normal;
+}
+
+.subtitle {
+    color: rgba(255, 255, 255, 0.4);
+
+}
+
+.subtitle > span {
+    font-style: oblique;
+}
+
+
+.intro {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    text-align: center;
+    background: #2d6360 50% 0 url(http://www.csszengarden.com/214/huntington.jpg) no-repeat;
+    opacity: 1;
+}
+
+.summary {
+    margin: 0 auto;
+}
+
+.design-archives {
+    font-family: 'verdemoderna';
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2d6360 50% 0 url(http://www.csszengarden.com/214/huntington.jpg) no-repeat;
+
+
+}
+
+.design-archives > a {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+.design-archives a::after {
+    content: "  >";
+}
+
+
+.zen-resources {
+    background-attachment: scroll, scroll, fixed;
+    background: url('http://www.csszengarden.com/214/bamboo.png'), url('gridlines-opaque.png'), url('bamboo.png');
+    background-color: rgba(138,188,159,0.5);
+    line-height: 4em ;
+}
+
+.zen-resources > div {
+    border-bottom: solid 1px gray;
+    padding: 0 0 0 10px;
+}
+
+
+.participation {
+    background-attachment: scroll, scroll, fixed;
+    background: url('http://www.csszengarden.com/214/bamboo.png'), url('gridlines-opaque.png'), url('bamboo.png');
+    background-color: rgba(138,188,159,0.5);
+}
+
+.authors {
+
+  background: #e6ebdf;
+}
+
+.authors > ul {
+    list-style: none;
+    line-height: 2.5em;
+}
+
+.authors > ul > li {
+    border-bottom: solid 1px lightgray;
+}
+
+.byDaveShea {
+    grid-column: 1 / -1;
+    background-image: url(http://www.csszengarden.com/214/contours@2x.png), url(http://www.csszengarden.com/214/gridlines.png), url(http://www.csszengarden.com/214/noise.png), url(http://www.csszengarden.com/214/koi.jpg);
+    background-size: 50% auto, auto, auto, cover;
+    font-size: 1.5em;
+}
+
+.byDaveShea > p > span {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1.2em;
+}
+
+.mediatemple {
+    color: #fff;
+    font-family: 'Libre Baskerville', sans-serif;
+}
+
+.icons {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons > div {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.footer {
+    grid-column: 1 / -1;
+    color: #fff;
+    background: #134347
+}
+
+
+@media (max-width: 900px){
+
+    .intro > h1 {
+        display: flex;
+        font-size: 2em;
+        justify-content: center;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto)
+    }
+
+    .participation {
+        grid-row: 4;
+    }
+
+    .authors {
+        grid-row: 9;
+        column-count: 2;
+   }
+
+    .zen-resources {
+        grid-row: 10;
+        column-count: 2;
+        border-bottom: solid 1px gray;
+    }
+
+
+}
+
+
+

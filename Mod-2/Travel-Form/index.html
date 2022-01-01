@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AeroMexico</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+    <form name="aero">
+        <h1>AeroMexico</h1>
+        <input type="text" name="firstName" placeholder="First Name" required />
+        <input type="text" name="lastName" placeholder="Last Name" required />
+        <input type="number" name="age" placeholder="Age" required />
+        <br>
+        Gender:
+        <br>
+        Male: <input type="radio" name="gender" value="Male" />
+        Female: <input type="radio" name="gender" value="Female" />
+        Location: <select name="location">
+            <option value="Mexico City">Mexico City</option>
+            <option value="Salt Lake City">Salt Lake City</option>
+            <option value="Monterey">Monterey</option>
+        </select>
+        <br>
+        Dietary Restrictions:
+        <br>
+        Vegetarian <input type="checkbox" name="diet" value="Vegetarian">
+        Kosher <input type="checkbox" name="diet" value="Kosher">
+        Lactose Free <input type="checkbox" name="diet" value="Lactose Free">
+        <button type="submit">Submit</button>
+
+
+    </form>
+    <script src="/app.js"></script>
+</body>
+
+</html>

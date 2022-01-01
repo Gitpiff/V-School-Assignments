@@ -1,0 +1,75 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.boxes {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box1 {
+    background-color: darkred;
+    border: 1px solid black;
+    transition: background-color 1s linear 1s, width 1s linear;
+}
+.box1:hover {
+    background-color: blue;
+    width: 500px;
+}
+
+.box2 {
+    background-color: white;
+    border: 1px solid black;
+    transition: background-color 1s linear 1s, height 1s linear, border-radius .5s ease-in-out 1s ;
+}
+.box2:hover {
+    border-radius: 100%;
+    height: 400px;
+    background-color: burlywood;
+}
+
+.box3 {
+    background-color: darkgreen;
+    border: 1px solid black;
+    transition: backround-color 1s ease-out, box-shadow 1s linear, border 2s ease-in;
+}
+.box3:hover {
+    background-color: crimson;
+    box-shadow: darkgreen;
+    border: 50px solid yellow;
+}
+
+
+.box4 {
+    background-color: cornflowerblue;
+    border: 1px solid black;
+    transition: backround-color 1s ease-in-out, color 1s ease-in, font-size 2s linear, text-align 2s ease-in-out;
+}
+.box4:hover {
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box5 {
+    background-color: purple;
+    border: 1px solid black;
+    /* transition:  1s linear; */
+}
+
+
+.box6 {
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+.box7 {
+    background-color: black;
+    border: 1px solid white;
+}

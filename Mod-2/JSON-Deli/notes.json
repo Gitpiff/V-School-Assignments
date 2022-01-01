@@ -1,0 +1,14 @@
+{
+    "name": "Chachison",
+    "age": 30,
+    "isHungry": true,
+    "friends": [
+        "Chacho",
+        "Whale",
+        "Yeti"
+    ],
+    "address": {
+        "street": "123 ocean ave",
+        "city": "Carmel"
+    }
+}

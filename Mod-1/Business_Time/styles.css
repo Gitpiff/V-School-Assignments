@@ -1,0 +1,157 @@
+html,
+body {
+  /* box-sizing: border-box;
+  height: 100%;
+  font-size: 16;
+  line-height: 2em; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  background-color: #ffeead;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  align-self: center;
+}
+
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.fotos > div > img {
+  width: 600px;
+  height: 600px;
+}
+
+#mainheader {
+  background: #333;
+  color: white;
+}
+
+#mainNav {
+  background: #cccccc;
+  color: black;
+}
+
+#mainNav ul {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+
+#mainNav li {
+  display: inline;
+  padding: 7px 10px;
+}
+
+#mainNav a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#mainNav li:hover {
+  background-color: #aaa;
+}
+
+.compra {
+  border: 5px solid #ffcc5c;
+  display: flex;
+  padding: 0;
+  /* flex-wrap: wrap;
+  text-align: center; */
+}
+
+.compra li:hover {
+  background-color: #ffeead;
+}
+
+.compra a {
+  text-decoration: none;
+  color: black;
+}
+
+.compra > li {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #cc9900;
+  list-style-type: none;
+  flex: 1 1 200px;
+}
+
+.search-input {
+  background-color: black;
+  font-size: 1em;
+  border: 0;
+  width: 100%;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #cc9900;
+  color: black;
+}
+::placeholder {
+  color: black;
+}
+
+.search-input:focus {
+  outline: none;
+}
+.float {
+  padding: 7px 10px;
+}
+
+.cou {
+  background-color: #f5c6d6;
+  width: 25%;
+  height: 200px;
+  border: 10px solid #cc9900;
+  display: inline-block;
+  font-size: 5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.deal {
+  background-color: #f5c6d6;
+  width: 25%;
+  height: 200px;
+  border: 10px solid #cc9900;
+  display: inline-block;
+  font-size: 5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.news {
+  background-color: #f5c6d6;
+  width: 25%;
+  height: 200px;
+  border: 10px solid #cc9900;
+  display: inline-block;
+  font-size: 5em;
+  justify-content: center;
+  text-align: center;
+}
+
+.gift {
+  background-color: #f5c6d6;
+  width: 25%;
+  height: 200px;
+  border: 10px solid #cc9900;
+  display: inline-block;
+  font-size: 5em;
+  justify-content: center;
+  text-align: center;
+}
+
+@media (min-width: 400px) {
+  .float > div {
+    width: 100%;
+  }
+}
