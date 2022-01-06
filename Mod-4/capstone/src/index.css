@@ -11,3 +11,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Header {
+  display: flex;
+
+}
+
+.Header-Coin {
+  width: 10%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.Header-Symbol {
+  width: 15%;
+  margin-left: 10%;
+  font-weight: bold;
+}
+
+.Header-Ticker {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-Price {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-Variation {
+  width: 15%;
+  font-weight: bold;
+}
+
+.Header-MCap {
+  font-weight: bold;
+}
