@@ -1,5 +1,5 @@
 import React from 'react'
-// import CoinsContext from './CoinsContext'
+
 
 function Nav() {
     return (
@@ -43,7 +43,6 @@ function Nav() {
                                         class="form-control me-2"
                                         type="search"
                                         placeholder='Search Crypto'
-                                        // onChange={handleChange}
                                     />
                                     <button
                                         type='submit'

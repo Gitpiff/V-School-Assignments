@@ -1,22 +1,9 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import * as ReactBootStrap from "react-bootstrap"
 
 
 
 function Card({id,name, image, symbol, price, priceChange, marketcap}) {
-
-    useEffect(() => {
-        <thead>
-                <tr>
-                  <th>Coin</th>
-                  <th>Symbol</th>
-                  <th>Ticker Symbol</th>
-                  <th>Current Price</th>
-                  <th>24 Hr Variation</th>
-                  <th>Market Cap</th>
-                </tr>
-              </thead>
-    }, [])
 
     return (
 
